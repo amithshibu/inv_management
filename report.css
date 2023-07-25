@@ -1,0 +1,58 @@
+head{
+    color:rgb(53, 48, 48);
+  
+  }
+  
+  form {
+     
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    border: black solid 1px;
+    border-radius:10px;
+    padding: 30px 50px 30px 50px;
+    background-color: rgb(33, 33, 33);
+    width: 50%;
+    }
+    
+    label {
+      margin-bottom: 5px;
+      
+    }
+    
+  input {
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+     
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: rgb(52, 126, 236);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: large;
+    }
+    
+    button:hover {
+      background-color: rgb(53, 48, 48);;
+    }
+    
+    button:active {
+      background-color: rgb(53, 48, 48);
+    }
+    *{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: black
+    }
+    input,select,textarea{
+      color: rgb(0, 0, 0);
+    }
+   

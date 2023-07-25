@@ -1,0 +1,113 @@
+.delete-btn{
+    background: rgb(233, 82, 82);
+    color:#fff;
+    border: 0;
+    padding:4px 10px;
+    border-radius: 3px;
+}
+.table-container{
+ left:20vw;
+ top:10vh;
+ overflow-y: hidden;
+ position: relative;
+ width: 80%;
+ border-radius: 20px;
+}
+.table{
+    margin-right: 1%;
+}
+
+.boxContainer{
+    margin-top:50px;
+    margin-left: 40vw;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border: 4px solid #2980b9;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+.elementsContainer{
+    width:100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    height: 100%;
+    width:100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    color:#424242;
+    font-weight: 500;
+}
+.search:focus
+{
+    outline: none;
+}
+.material-icons{
+    font-size: 35;
+    color:#2980b9;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+th{
+    background-color:#40916c;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.td{
+    font-family: cursive;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    border-bottom: 2px solid #40916c;
+}
+tbody{
+    /**border:1px solid rgb(53, 146, 203);**/
+}
+.tr:hover{
+    font-weight: bold;
+    font-size: medium;
+    border: 5px solid rgb(115, 222, 255);
+}
+.edit{
+  background-color: #199319;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  margin-bottom: -10vh;
+}
+.delete{
+    text-align: center;
+    position: fixed;
+}
+#my-data{
+    align-items: center;
+}
+.navbar{
+    background-color: #088395;
+}
+@media only screen and (max-width: 992px) {
+
+    .boxContainer{
+        margin-top: 15vh;
+        margin-left: 30%;
+        width: 50vw;
+    }
+    .table-container{
+        margin-left: 15vw;
+    }
+}

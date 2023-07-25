@@ -1,0 +1,149 @@
+.img-container{
+    display: inline-flex;
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    top:1vh;
+    right:2vw;
+    border-radius: 50%;
+    margin-right: auto;
+    
+
+}
+.msg-icon{
+    color: white;
+}
+.date-container{
+    margin-left: 65vw;
+    margin-top: 5vh;
+    
+}
+.home{
+    height: 0px;
+    width: 0px;
+}
+.user-pic{
+    border-radius: 50%;
+    width:20vw;
+    margin-right: 10vw;
+    height: 60px;
+}
+.heading_container{
+    margin-left: 45vw;
+    font-size: large;
+    color: whitesmoke;
+}
+.inside-user{
+    width: 75px;
+    height: 75px;
+    margin: 0%;
+}
+.user-pic h3{
+    font-size: 1rem;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top:100%;
+    right:5vw;
+    width:18vw;
+    height: 39vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0%;
+    max-height: 0px;
+    overflow: hidden;
+    background-color: #e8e8e8;
+    margin-top: 1vh;
+
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #000000;
+    padding: 5px;
+    margin: 0%;
+}
+.user-info{
+ display: flex;
+ align-items: center;
+ margin: 0px;
+ padding: 0px;
+ 
+}
+.user-info h3{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.user-info img{
+    width:60px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#000000;
+    margin:0px;
+    
+
+}
+.sub-menu-link p{
+    width: 100%;
+}
+.sub-menu-link img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    padding: 1px;
+    margin-right: 12px;
+}
+.sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+
+.msg-icon{
+    width:50px;
+    height: 50px;
+    display: flexbox;
+    position: absolute;
+    top:2vh;
+    left:80vw;
+}
+.msg-img{
+    display: flexbox;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+@media(max-width:500px)
+{
+    .img-container{
+        right:5vw;
+        top:10vh;
+        position: absolute;
+        
+    }
+    .sub-menu-wrap{
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+        z-index: 10;
+    }
+}

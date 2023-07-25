@@ -1,0 +1,61 @@
+.container {
+    margin-left: 25vw;
+    width: 60%;
+    margin-top: 30vh;
+}
+.submit-btn{
+    padding: 10px;
+    font-size: medium;
+    background-color: #3f93f1;
+    color: white;
+    position: absolute;
+    border: none;
+}
+.edit-btn{
+    
+    font-size: medium;
+    border:1px solid black;
+    padding: 7px;
+    color: black;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+.delete-btn{
+  border:1px solid black;
+    font-size: medium;
+    
+    padding: 7px;
+    color: black;
+    font-weight: bolder;
+    
+}
+  
+  #searchInput {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    margin-top: 5vh;
+  }
+  
+  #dataTable th, #dataTable td {
+    padding: 8px;
+    border: 1px solid black;
+
+  }
+  
+  #dataTable th {
+    background-color: rgb(72, 153, 219);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+
+body{
+    background-color: rgb(190, 199, 195);
+}

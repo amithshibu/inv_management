@@ -1,0 +1,67 @@
+#users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #userss tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #users tr:hover {background-color: #ddd;}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4181e7;
+    color: white;
+  }
+  .table-wrap{
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  #approve{
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #17a2b8;;
+  }
+
+  #reject{
+
+      border: none;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      background-color:#dc3545
+    
+  }
+  .table-container{
+   left:5%;
+   padding-right: 3%;
+   position: absolute;
+   top:12vh;
+   width: 90%;
+  }
+
+  .heading{
+    position: absolute;
+    border:1px solid rgba(40, 39, 39, 0.31);
+    font-weight: bold;
+    left: 40vw;
+    top:5vh;
+    font-size: larger;
+  }
+  button{
+    background-color: #4181e7;
+    color:white;
+    cursor:pointer;
+    border: offset 1px #4181e7;
+  
+  }

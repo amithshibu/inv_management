@@ -1,0 +1,111 @@
+.table-container{
+    border:none;
+    margin-left: 25vw;
+    display: flex;
+    width: fit-content;
+    overflow-x: auto;
+    margin-top: 28vh;
+    margin-right: 5vw;
+    position: absolute;
+    top:40px;
+    background-color: rgb(255, 255, 255);
+    
+}
+table {
+    border-collapse: collapse;
+  }
+  
+tbody,tr,td{
+    border:1px solid rgb(52, 49, 49);
+    padding: auto;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+th{
+    border:1px solid white;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+#slct1{
+    display: inline-block;
+    width: 40vw;
+    position: absolute;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    height: 4vh;
+    margin-top: 10vh;
+    top:10px;
+}
+.slct1 select{
+   background-color:#038aff;
+
+}
+.slct1 option,select{
+    font-weight: bolder;
+    color:white
+}
+
+.slct2 option:hover{
+    font-weight: bolder;
+}
+
+#slct2{
+    display: inline-block;
+    width: 40vw;
+    position: absolute;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    height: 4vh;
+    margin-top: 15vh;
+    top:25px;
+}
+.slct2 select{
+    margin-top:6vh ;
+    width: 135px;
+    background-color:#038aff;
+    padding: 0 15px;
+    text-align: left;
+    font-size: small;
+    
+    
+}
+::selection{
+    width:fit-content;
+    background-color:rgb(244, 255, 29);
+}
+
+#btn{
+    position: absolute;
+    display: block;
+    left:62vw;
+    top:28vh;
+    color:white;
+    background-color:#038aff;
+    border-radius: 10%;
+    border: 1px outset #038aff;
+    width: 5vw;
+}
+#table th{
+  background-color:#038aff;
+  color:white;
+}
+option:hover{
+    background-color: rgb(244, 255, 29);
+}
+tr:hover{
+    background:white ;
+    font-weight: bold;
+}
+option:nth-child():hover{
+    background: black;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#table{
+    margin-right: 10vw;
+}

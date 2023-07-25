@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="issues.css" <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <h1 align="center"><b>REPORT ISSUE</b></h1>
+
+
+    <div class="container">
+        <form action="https://formsubmit.co/your@email.com" method="POST" />
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="name" name="name" class="form-control" id="exampleInputname" aria-describedby="name" placeholder="Enter Full Name">
+
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter phone number" pattern="[0-9]{10}" required>
+            <small class="form-text text-muted">Please enter the phone number in the format XXX-XXX-XXXX.</small>
+        </div><br>
+        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select place of issue</label>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="select">
+    <option selected>problem in</option>
+    <option value="Lab">Lab</option>
+    <option value="Classroom">Classroom</option>
+    <option value="Others">Others</option>
+  </select>
+        <br><br>
+
+        <div class="form-group">
+            <label for="message">Complaint</label>
+            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+
+        <button type="submit" name="submit" class="btn btn-primary submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    function validate() {
+        let email = document.getElementById('exampleInputEmail1').value.trim();
+        console.log(email)
+        var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@(ug.cusat.ac.in)$/;
+        if (!(email.toLowerCase().match(validRegex))) {
+            alert("Please enter valid CUSAT mail address.");
+            return false;
+        } else {
+            return true;
+        }
+    }
+</script>
